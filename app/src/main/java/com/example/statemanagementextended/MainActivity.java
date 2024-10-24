@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
     private StateViewModel stateViewModel;
 
     public static class StateViewModel extends ViewModel {
-        private int count = 0;
-        private boolean zazOpcja = false;
-        private boolean CiemnyMotyw = false;
+        private int count;
+        private boolean zazOpcja;
+        private boolean CiemnyMotyw;
 
         public int getCount() {
             return count;
